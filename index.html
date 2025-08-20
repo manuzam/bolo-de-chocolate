@@ -1,0 +1,196 @@
+Peço desculpas pela confusão! Aqui está o código completo novamente para que você possa copiá-lo diretamente:
+
+```html
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bolo de Chocolate Perfeito</title>
+    <style>
+        /* Reset e Estilos Gerais */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            background-color: #f9f5f0;
+            color: #333;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        /* Cabeçalho */
+        header {
+            background-color: #5e2a15;
+            color: white;
+            text-align: center;
+            padding: 30px 0;
+            margin-bottom: 30px;
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        
+        .subtitle {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+        
+        /* Imagem do bolo */
+        .recipe-image {
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            margin: 20px 0;
+        }
+        
+        /* Metadados da receita */
+        .recipe-meta {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 15px;
+        }
+        
+        .meta-item {
+            text-align: center;
+        }
+        
+        .meta-item strong {
+            display: block;
+            color: #5e2a15;
+            margin-bottom: 5px;
+            font-size: 1.1rem;
+        }
+        
+        /* Seções de ingredientes e modo de preparo */
+        .section {
+            background: white;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+        }
+        
+        h2 {
+            color: #5e2a15;
+            border-bottom: 2px solid #d4a76a;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            font-size: 1.8rem;
+        }
+        
+        h3 {
+            color: #5e2a15;
+            margin: 20px 0 15px;
+            font-size: 1.3rem;
+        }
+        
+        ul, ol {
+            padding-left: 20px;
+        }
+        
+        li {
+            margin-bottom: 10px;
+        }
+        
+        /* Dicas */
+        .tips {
+            background: #fff9e6;
+            padding: 20px;
+            border-radius: 8px;
+            border-left: 4px solid #d4a76a;
+        }
+        
+        /* Rodapé */
+        footer {
+            text-align: center;
+            padding: 20px;
+            margin-top: 50px;
+            background-color: #5e2a15;
+            color: white;
+        }
+        
+        /* Responsivo */
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 2rem;
+            }
+            
+            .recipe-image {
+                height: 250px;
+            }
+            
+            .recipe-meta {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Bolo de Chocolate Perfeito</h1>
+            <p class="subtitle">A receita mais fofa e saborosa que você vai experimentar</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <img src="https://placehold.co/800x400" alt="Bolo de chocolate cortado mostrando o miolo fofo, com cobertura de ganache brilhante e raspas de chocolate" class="recipe-image">
+        
+        <div class="recipe-meta">
+            <div class="meta-item">
+                <strong>Rendimento</strong>
+                <span>12 porções</span>
+            </div>
+            <div class="meta-item">
+                <strong>Preparo</strong>
+                <span>20 min</span>
+            </div>
+            <div class="meta-item">
+                <strong>Cozimento</strong>
+                <span>40 min</span>
+            </div>
+            <div class="meta-item">
+                <strong>Dificuldade</strong>
+                <span>Fácil</span>
+            </div>
+        </div>
+        
+        <div class="section ingredients">
+            <h2>Ingredientes</h2>
+            
+            <h3>Massa:</h3>
+            <ul>
+                <li>3 xícaras (360g) de farinha de trigo</li>
+                <li>2 xícaras (400g) de açúcar refinado</li>
+                <li>1 xícara (90g) de cacau em pó 50%</li>
+                <li>1 colher (sopa) de fermento químico</li>
+                <li>1 colher (chá) de bicarbonato de sódio</li>
+                <li>½ colher (chá) de sal</li>
+                <li>2 ovos grandes (100g)</li>
+                <li>1 xícara (240ml) de leite integral</li>
+                <li>½ xícara (120ml) de óleo vegetal</li>
+                <li>2 colheres (chá) de essência de baunilha</li>
+                <li>1 xícara (240ml) de água fervente</li>
+            </ul>
+            
+            <h3>Cobertura:</h3>
+           
